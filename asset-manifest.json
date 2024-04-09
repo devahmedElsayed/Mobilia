@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d971188d.css",
+    "main.js": "/static/js/main.e2894882.js",
+    "static/js/453.71570585.chunk.js": "/static/js/453.71570585.chunk.js",
+    "static/media/help1.jpg": "/static/media/help1.ad8ba13496a1834763e0.jpg",
+    "static/media/Choose.jpg": "/static/media/Choose.afb2571022e4d5a42915.jpg",
+    "static/media/post-2.jpg": "/static/media/post-2.6c8ac20b2ce55eb93c55.jpg",
+    "static/media/couch.png": "/static/media/couch.7a344a6302c235396f60.png",
+    "static/media/post-3.jpg": "/static/media/post-3.fe3ce5306db37c27bf32.jpg",
+    "static/media/post-1.jpg": "/static/media/post-1.2215ba0870c6839035d0.jpg",
+    "static/media/footer.png": "/static/media/footer.86e59c0fb4f5199c977e.png",
+    "static/media/help3.jpg": "/static/media/help3.70252b841cf43ed93793.jpg",
+    "static/media/help2.jpg": "/static/media/help2.0ff4a802bbb7eb26cee1.jpg",
+    "static/media/mat-2.png": "/static/media/mat-2.2c7c1dfd7461612e3886.png",
+    "static/media/mat-4.png": "/static/media/mat-4.9a7701e22aabf396c0f3.png",
+    "static/media/mat-1.png": "/static/media/mat-1.b3c19796dccb13fbd0b3.png",
+    "static/media/team1.jpg": "/static/media/team1.3b349ed7d06859f8fc58.jpg",
+    "static/media/test.png": "/static/media/test.1b23aa01689732512698.png",
+    "static/media/imgteam1.jpg": "/static/media/imgteam1.e140471939f87b3752ba.jpg",
+    "static/media/team4.jpg": "/static/media/team4.e140471939f87b3752ba.jpg",
+    "static/media/team3.jpg": "/static/media/team3.5fc16e3352daa95e18a3.jpg",
+    "static/media/imgteam2.jpg": "/static/media/imgteam2.9e118a766a1a194ae477.jpg",
+    "static/media/team2.jpg": "/static/media/team2.9e118a766a1a194ae477.jpg",
+    "index.html": "/index.html",
+    "main.d971188d.css.map": "/static/css/main.d971188d.css.map",
+    "main.e2894882.js.map": "/static/js/main.e2894882.js.map",
+    "453.71570585.chunk.js.map": "/static/js/453.71570585.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d971188d.css",
+    "static/js/main.e2894882.js"
+  ]
+}
