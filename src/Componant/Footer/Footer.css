@@ -1,0 +1,222 @@
+.mainfooter{
+    background-color: white; /* For browsers that do not support gradients */
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.footerImg{
+    background-color: #eee;
+    height: 150px;
+    direction: rtl;
+}
+.footerImg img{
+padding-top: 0;
+margin-top: 0;
+
+}
+.mainfooter .subscribe{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5%;
+    color: #3b5d50;
+}
+.mainfooter .subscribe p{
+    font-size: 40px;
+}
+.inpFooter{
+    margin-left: 5%;
+    display: flex;
+align-items: center;
+}
+.inpFooter input{
+    width: 15%;
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+}
+.inpFooter input:focus{
+    border: 1px solid #3b5d50 ;
+    outline: none   ;
+}
+.inpFooter button{
+background-color: #3b5d50;
+color: white;
+width: 70px;
+height: 70px;
+border-radius: 20px;
+font-size: 40px;
+text-align: center;
+justify-content: center;
+border: none;
+
+}
+.inpFooter button:hover{
+    background-color: #294238;
+}
+.footercol1 .iconFooter p:hover{
+    cursor: pointer;
+    background-color: #3b5d50;
+    color: white;
+}
+.footercol1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    margin: auto;
+    padding-left: 6%;
+    line-height: 40px;
+}
+.footercol2{
+    margin: auto;
+    width: 100%;
+}
+.footercol2 p:hover{
+    color: #777;
+    cursor: pointer;
+}
+.footercol1 .iconFooter p{
+    background-color: #dce5e4;
+    color: #3b5d50;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainfooter hr{
+    width: 90%;
+    border-radius: 50%;
+    height: 5px;
+    margin:20px auto;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 88%;
+}
+.terms{
+    gap: 80px;
+}
+@media   (max-width: 992px) { 
+    .subscribe{
+        margin-top: 150px;
+    }
+
+    .inpFooter input{
+        width: 30%;
+        height: 70px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+        border: 1px solid #eee;
+    }
+    .inpFooter button{
+    background-color: #3b5d50;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    
+    }
+    .footerImg img{
+        width: auto;
+    }
+
+    .footercol1 {
+        flex-direction: column;
+        width:auto;
+        width: 100%;
+
+        
+    }
+    .footercol1 p {
+        flex-direction: column;
+        width:500px
+        ;
+        
+    }
+    .footercol2{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .copy ,.terms{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (min-width: 992px) and  (max-width: 1300px) {
+    .footercol1 {
+        flex-direction: column;
+        width:auto;
+        width: 100%;
+
+    }
+    .footercol1 p {
+        flex-direction: column;
+        width:500px;
+        
+    }
+    .footercol2{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .hedfoot{
+        width: 100%;
+    }
+    .copy ,.terms{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 767.98px) {
+    .footercol1 {
+        flex-direction: column;
+        width:auto;
+        width: 100%;
+        
+    }
+    .footercol1 p {
+        flex-direction: column;
+        width:400px;
+        
+    }
+    .footercol2{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    
+    .copy ,.terms{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+} 

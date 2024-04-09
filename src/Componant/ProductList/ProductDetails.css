@@ -1,0 +1,49 @@
+.prodDetails{
+    width: 100%;
+    background-color: #eee;
+    height: auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+.prodDetails .infoD span{
+    display: block;
+    line-height: 150px;
+    font-size: 50px;
+}
+.prodDetails .infoD button{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    background-color: #ffc107;
+    color: #393838;
+} 
+.prodDetails .infoD button:hover{
+    background-color: black;
+    color: #eee;
+    transition: 0.8s;
+}
+.D_input{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 27px;
+}
+@media (max-width : 1200px){
+    .prodDetails{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,59 @@
+.login{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 170px;
+}
+.form_title{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #3b5d50;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    background-color: #3b5d5040; /* لون الخلفية مع الشفافية */
+    backdrop-filter: blur(50px); /* تأثير الضبابية لتحقيق المظهر الزجاجي */
+    border-radius: 10px; /* إضافة شكل مستدير للحواف */
+    padding: 20px; 
+    position: relative;
+}
+.form input{
+    border: 3px solid #3b5d50 ;
+    padding: 10px;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.form_btn{
+    width: 100%;
+    background-color:#3b5d50;
+    color: white;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 7;
+    border: none;
+    height: 50px;
+}
+.form_footer{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.show_pass{
+    position: absolute;
+    top: 185px;
+    right: 30px;
+    font-size: 21px;
+    color: #3b5d50;
+    z-index: 2;
+    cursor: pointer;
+}

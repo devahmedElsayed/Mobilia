@@ -1,0 +1,74 @@
+.team{
+    width: 100%;
+   background-color: #eee;
+   margin-top: 50px;
+
+}
+.team .teamHead{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-weight: 600;
+    font-size: 57px;
+}
+.teamWork{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.person_Team{
+    margin: 15px;
+    font-size: 20px;
+    
+}
+.person_Team img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+.person_Team span {
+    padding: 25px 15px ;
+}
+.person_Team h2 {
+    border-bottom: 4px solid black;
+    width: fit-content;
+    padding: 25px 15px 0px  15px ;
+}
+.person_Team p {
+    padding: 25px 15px ;
+}
+.person_Team a {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+@media (max-width: 1200px){
+    .teamWork{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 920px){
+    .teamWork{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 720px){
+    .teamWork{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
