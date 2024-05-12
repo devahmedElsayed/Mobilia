@@ -14,8 +14,8 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    gap: 20%;
-
+    gap: 5%;
+    height: auto;
 
 }
 .navparent h2{
@@ -23,19 +23,21 @@
     font-weight: 900;
     padding-top: 15px;
     margin-left: 0;
-    font-size: 35px;
+    font-size: 28px;
 }
 .navparent h2 span{
     opacity: 0.4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-ul{
+ ul{
         list-style: none;
         display: flex;
-        gap: 60px;
+        gap: 50px;
         padding-top: 10px;
         margin: auto;
-        font-size: 20px;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
     }
     ul li a{
         color: white;
@@ -45,6 +47,9 @@ ul{
         border-bottom: 5px solid #ffc107; 
         transition: 0.2s ;
       }
+      ul p{
+        width: fit-content;
+      }
 .iconnav{
     display: flex;
     margin-left: 50px;
@@ -53,6 +58,7 @@ ul{
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-top: 10px;
 }
 .iconnav a{
     color: white;
@@ -78,14 +84,70 @@ ul{
 
 
 
+@media (min-width: 993px) and (max-width: 1400px) { 
+    .navparent{
+        height: auto;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
 
+    }
+    .nav{
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+    ul li{
+        list-style: none;
+        display: flex;
+        gap: 2px;
+        padding-top: 10px;
+        margin: auto;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        } 
+        ul li a{
+            width: 70px;
+        }   
+
+}
 
     
-    @media (max-width: 992px) { 
-        ul{
+    @media (min-width: 520px) and (max-width: 992px) { 
+        ul {
             display: block;
         }
 
 
-     }
+    }
+    @media (max-width: 520px) { 
+        .navparent{
+            width: 100%;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .nav{
+            width: 100%;
+            margin: auto;
+
+        }
+        .navparent h2{
+            color: white;
+            font-weight: 900;
+            padding-top: 15px;
+            margin-left: 0;
+            font-size: 20px;
+            width: auto;
+        }
+        ul {
+            display: block;
+            width: 100%;
+            margin-left: 5px;
+        }
+
+        
+
+    }
     

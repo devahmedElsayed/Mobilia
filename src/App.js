@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import Home from './Pages/Home';
 import Shop from './Pages/Shop/Shop'
@@ -12,9 +13,42 @@ import ProductDetails from './Componant/ProductList/ProductDetails';
 import Cart from './Pages/Cart/Cart';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import { useEffect } from 'react';
+import { TbHandClick } from "react-icons/tb";
+
 
 
 function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const btn = document.getElementById('btn_scroll');
+      if (btn) {
+        btn.style.display = window.scrollY >= 400 ? 'block' : 'none';
+      }
+    };
+
+    const handleBtnClick = () => {
+      window.scroll({
+        left: 0,
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    const btn = document.getElementById('btn_scroll');
+    if (btn) {
+      btn.addEventListener('click', handleBtnClick);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (btn) {
+        btn.removeEventListener('click', handleBtnClick);
+      }
+    };
+  }, []);
+
   return (
     <BrowserRouter>
       <NavBar/>
@@ -30,7 +64,10 @@ function App() {
           <Route path='/Login' element={<Login/>}/>
           <Route path='/Register' element={<Register/>}/>
         </Routes>
+
       <Footer/>
+      <button id='btn_scroll'><TbHandClick /></button>
+
     </BrowserRouter>
       
   );

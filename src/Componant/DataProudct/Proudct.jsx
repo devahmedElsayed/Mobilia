@@ -9,7 +9,7 @@ export const productList=[
     {
         id : '1',
         img:imgpro3,
-        name:'A1B-Cahir',
+        name:'A1B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:150,
         quantity:10,
@@ -20,7 +20,7 @@ export const productList=[
     {
         id : '2',
         img:imgpro2,
-        name:'A2B-Cahir',
+        name:'A2B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:210,
         quantity:15,
@@ -32,7 +32,7 @@ export const productList=[
     {
         id : '3',
         img:imgpro1,
-        name:'A3B-Cahir',
+        name:'A3B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:80,
         quantity:8,
@@ -40,9 +40,9 @@ export const productList=[
         view:<FaEye />,
     },
     {
-        id : 4,
+        id : '4',
         img:imgpro3,
-        name:'A4B-Cahir',
+        name:'A4B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:150,
         quantity:20,
@@ -50,9 +50,9 @@ export const productList=[
         view:<FaEye />,
     },
     {
-        id : 5,
+        id : '5',
         img:imgpro3,
-        name:'A5B-Cahir',
+        name:'A5B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:170,
         quantity:15,
@@ -62,7 +62,7 @@ export const productList=[
     {
         id : '6',
         img:imgpro1,
-        name:'A6B-Cahir',
+        name:'A6B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:150,
         quantity:26,
@@ -72,7 +72,7 @@ export const productList=[
     {
         id : '7',
         img:imgpro2,
-        name:'A1B-Cahir',
+        name:'A1B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:133,
         quantity:3,
@@ -82,7 +82,7 @@ export const productList=[
     {
         id : '8',
         img:imgpro3,
-        name:'A8B-Cahir',
+        name:'A8B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:270,
         quantity:26,
@@ -92,7 +92,7 @@ export const productList=[
     {
         id : '9',
         img:imgpro3,
-        name:'A9B-Cahir',
+        name:'A9B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:320,
         quantity:16,
@@ -102,7 +102,7 @@ export const productList=[
     {
         id : '10',
         img:imgpro1,
-        name:'A10B-Cahir',
+        name:'A10B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:250,
         quantity:22,
@@ -112,7 +112,7 @@ export const productList=[
     {
         id : '11',
         img:imgpro2,
-        name:'A1B-Cahir',
+        name:'A1B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:180,
         quantity:5,
@@ -122,7 +122,7 @@ export const productList=[
     {
         id : '12',
         img:imgpro3,
-        name:'A12B-Cahir',
+        name:'A12B-Chair',
         details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa?',
         price:275,
         quantity:26,

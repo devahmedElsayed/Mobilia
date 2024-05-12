@@ -36,7 +36,7 @@ height: auto;
     .servic_grid{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 10px 50px;
         gap: 70px 20px;

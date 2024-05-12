@@ -60,11 +60,18 @@
 
 
 .head_matrial{
-    width: 300px;
+    width:100%;
     text-align: center;
+    margin-left: 0;
+    font-size: 20px;
+}
+.head_matrial h2{
+    /* width: auto;
+    font-size: 20px;
+    font-weight: 800; */
 }
 .head_matrial p{
-    width: 350px;
+    width: auto;
     text-align: center;
 }
 .icon-container{
@@ -91,14 +98,23 @@
     }
     .head_matrial{
         text-align: left;
-        width: 600px;
+        width: 100%;
         text-align: center;
     }
     .head_matrial p{
-        width: 350px;
+        width: 50%;
         text-align: center;
+        margin: auto;
+        line-height: 50px;
     }
-
+    .imgmat{
+        margin: auto;
+        width: 100%;
+    }
+    .imgmat .imgmat1{
+        margin-top: 20px;
+        width: 100%;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .matrial{
@@ -112,7 +128,7 @@
     }
     .head_matrial{
         text-align: left;
-        width: 600px;
+        width: 100%;
         text-align: center;
     }
     .head_matrial p{
@@ -122,14 +138,14 @@
         padding: 10px 0;
     }
     .imgmat1{
-        margin-top:40px;
-    }
+            margin: 40px auto;
+        }
 }
 
 
-@media (max-width: 992px) { 
+@media (min-width: 521px) and (max-width: 992px) { 
     .matrial{
-        width: 70%;
+        width: 100%;
         margin: auto;
         margin-top: 40px;
         display: block;
@@ -139,7 +155,7 @@
     }
     .head_matrial{
         text-align: center;
-        width: auto;
+        width: 100%;
         margin: auto;
 
     }
@@ -159,9 +175,9 @@
         margin-top:40px;
     }
 }
-@media (max-width: 767.98px) { 
+@media (max-width: 520px) { 
     .matrial{
-        width: 70%;
+        width: 100%;
         margin: auto;
         margin-top: 40px;
         display: block;
@@ -173,18 +189,28 @@
         width: auto;
         margin: auto;
     }
-    .head_matrial p{
-        width: 350px;
+    .head_matrial h2{
         text-align: center;
+        width: auto;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .head_matrial p{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .head_matrial button{
+       margin-top: 20px
     }
     
     .img_mat{
-        width: 80%;
+        width: 100%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat( 1 ,1fr);
     }
     .imgmat1{
-        margin-top:40px;
+        margin: 40px auto;
     }
  }

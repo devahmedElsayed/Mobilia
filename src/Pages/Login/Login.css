@@ -10,19 +10,20 @@
     padding-top: 170px;
 }
 .form_title{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
     color: #3b5d50;
+    width: auto;
 }
 .form{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: auto;
     height: 400px;
     justify-content: center;
-    background-color: #3b5d5040; /* لون الخلفية مع الشفافية */
-    backdrop-filter: blur(50px); /* تأثير الضبابية لتحقيق المظهر الزجاجي */
-    border-radius: 10px; /* إضافة شكل مستدير للحواف */
+    background-color: #3b5d5040; 
+    backdrop-filter: blur(50px); 
+    border-radius: 10px; 
     padding: 20px; 
     position: relative;
 }

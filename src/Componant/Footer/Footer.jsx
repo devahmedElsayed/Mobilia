@@ -30,7 +30,7 @@ return (
                 <div className='col-4 hedfoot'>
                     <h2>Furni.</h2>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-                    <div className='d-flex iconFooter'>
+                    <div className='d-flex iconFooter m-auto'>
                         <p><FaFacebookF /></p>
                         <p><FaTwitter /></p>
                         <p><FaInstagram /></p>
@@ -38,29 +38,29 @@ return (
                     </div>
                 </div>
                 <div className='col-8   '>
-                    <div className='row links-wrap footercol2'>
-                    <div className='col-6 col-sm-6 col-md-3'>
-                        <p>About us</p>
-                        <p>Services</p>
-                        <p>Blog</p>
-                        <p>Contact us</p>
-                    </div>
-                    <div className='col-6 col-sm-6 col-md-3'>
-                        <p>Support</p>
-                        <p>Knowledge base</p>
-                        <p>Live chat</p>
-                    </div>
-                    <div className='col-6 col-sm-6 col-md-3'>
-                        <p>Jobs</p>
-                        <p>Our team</p>
-                        <p>Leadership</p>
-                        <p>Privacy Policy</p>
-                    </div>
-                    <div className='col-6 col-sm-6 col-md-3'>
-                        <p>Nordic Chair</p>
-                        <p>Kruzo Aero</p>
-                        <p>Ergonomic Chair</p>
-                    </div>
+                    <div className=' footercol2'>
+                            <div className=''>
+                                <p>About us</p>
+                                <p>Services</p>
+                                <p>Blog</p>
+                                <p>Contact us</p>
+                            </div>
+                            <div className=''>
+                                <p>Support</p>
+                                <p>Knowledge base</p>
+                                <p>Live chat</p>
+                            </div>
+                            <div className=''>
+                                <p>Jobs</p>
+                                <p>Our team</p>
+                                <p>Leadership</p>
+                                <p>Privacy Policy</p>
+                            </div>
+                            <div className=''>
+                                <p>Nordic Chair</p>
+                                <p>Kruzo Aero</p>
+                                <p>Ergonomic Chair</p>
+                            </div>
                 </div>
                 </div>
             </div>

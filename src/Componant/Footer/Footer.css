@@ -8,11 +8,15 @@
 .footerImg{
     background-color: #eee;
     height: 150px;
-    direction: rtl;
+    position: relative;
 }
 .footerImg img{
 padding-top: 0;
 margin-top: 0;
+object-fit: contain;
+position: absolute;
+left: 60%;
+width: auto;
 
 }
 .mainfooter .subscribe{
@@ -22,14 +26,17 @@ margin-top: 0;
     gap: 10px;
     margin-left: 5%;
     color: #3b5d50;
+    width: fit-content;
 }
 .mainfooter .subscribe p{
     font-size: 40px;
+    width: fit-content;
 }
 .inpFooter{
     margin-left: 5%;
     display: flex;
 align-items: center;
+width: auto;
 }
 .inpFooter input{
     width: 15%;
@@ -72,10 +79,7 @@ border: none;
     padding-left: 6%;
     line-height: 40px;
 }
-.footercol2{
-    margin: auto;
-    width: 100%;
-}
+
 .footercol2 p:hover{
     color: #777;
     cursor: pointer;
@@ -87,11 +91,18 @@ border: none;
     margin-left: 10px;
     border-radius: 50%;
     font-size: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height:40px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footercol2{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .mainfooter hr{
     width: 90%;
@@ -108,115 +119,202 @@ border: none;
 .terms{
     gap: 80px;
 }
-@media   (max-width: 992px) { 
-    .subscribe{
-        margin-top: 150px;
-    }
 
-    .inpFooter input{
-        width: 30%;
-        height: 70px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 20px;
-        border: 1px solid #eee;
-    }
-    .inpFooter button{
-    background-color: #3b5d50;
-    color: white;
-    width: 70px;
-    height: 70px;
-    border-radius: 20px;
-    font-size: 40px;
-    text-align: center;
-    justify-content: center;
-    border: none;
-    
-    }
-    .footerImg img{
-        width: auto;
-    }
 
+
+
+
+@media (min-width: 992px) and  (max-width: 1300px) {
     .footercol1 {
         flex-direction: column;
-        width:auto;
-        width: 100%;
+        width:100%;
+        margin: auto;
 
-        
     }
     .footercol1 p {
         flex-direction: column;
-        width:500px
-        ;
+        width:auto;
         
     }
     .footercol2{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
         margin: auto;
         width: 100%;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: space-between;
+        align-items: center;
     }
-
+    .hedfoot{
+        width: auto;
+    }
     .copy ,.terms{
         display: block;
         text-align: center;
         margin: auto;
     }
+   
+    .footerImg img {
+        width: 350px;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 88%;
+    }
+    .terms{
+        gap: 80px;
+    }
 }
-@media (min-width: 992px) and  (max-width: 1300px) {
+@media  (min-width: 720.1px) and (max-width: 992px) { 
     .footercol1 {
         flex-direction: column;
-        width:auto;
-        width: 100%;
-
-    }
-    .footercol1 p {
-        flex-direction: column;
-        width:500px;
-        
-    }
-    .footercol2{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
+        width:100%;
         margin: auto;
-        width: 100%;
-        justify-content: center;
+
     }
     .hedfoot{
         width: 100%;
     }
-    .copy ,.terms{
-        display: block;
-        text-align: center;
-        margin: auto;
-    }
-}
-@media (max-width: 767.98px) {
-    .footercol1 {
-        flex-direction: column;
-        width:auto;
-        width: 100%;
-        
-    }
     .footercol1 p {
         flex-direction: column;
-        width:400px;
+        width:100%;
         
     }
     .footercol2{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
         margin: auto;
         width: 100%;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
     }
-    
-    
+    .hedfoot{
+        width: auto;
+    }
     .copy ,.terms{
         display: block;
         text-align: center;
         margin: auto;
-        width: 90%;
+    }
+
+    .footerImg img {
+        max-width: 280px;
+    }
+    .copy{
+        display: block;
+        justify-content: space-between;
+        margin: auto;
+        width: 88%;
+    }
+    .terms{
+        gap: 80px;
+        margin: auto;
+        width: 50%;
+    }
+}
+@media (min-width: 520.1px) and (max-width: 720px) {
+    .footercol1 {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+
+    }
+    .footercol1 p {
+        flex-direction: column;
+        width:auto;
+        
+    }
+    .footercol2{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    .hedfoot{
+        width: auto;
+    }
+    .copy ,.terms{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .footerImg img {
+        max-width:  270px;
+    }
+    .copy{
+        display: block;
+        justify-content: space-between;
+        margin: auto;
+        width: 80%;
+    }
+    .terms{
+        gap: 80px;
+        margin: auto;
+        width: 80%;
+    }
+    .hedfoot p , h2{
+        width: 300px;
     }
 } 
+@media (max-width: 520px){
+    .footercol1 {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+
+    }
+    .footercol1 p {
+        flex-direction: column;
+        width:auto;
+        
+    }
+    .footercol2{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+    .hedfoot{
+        width: auto;
+    }
+   
+    .copy ,.terms{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .footerImg img {
+        max-width:  230px;
+        left: 30%;
+    }
+    .copy{
+        display: block;
+        justify-content: space-between;
+        margin: auto;
+        width: 88%;
+    }
+    .terms{
+        gap: 80px;
+    }
+    .hedfoot p , h2{
+        width: 300px;
+    }
+    .hedfoot p{
+        padding-left: 10px;
+    }
+    .inpFooter input{
+        width: 100px;
+    }
+    
+}

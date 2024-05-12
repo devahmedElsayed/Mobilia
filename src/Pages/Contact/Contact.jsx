@@ -15,7 +15,7 @@ const Contact = () => {
                 <h2 style={{fontSize:'50px'}}>Contact</h2>
                 <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
                 <div>
-                    <button className='shop btn-warning'>Shop now</button>
+                    <button  style={{marginBottom:'10px'}} className='shop btn-warning'>Shop now</button>
                     <button className='exploar'>Exploar</button>
                 </div>
             </div>

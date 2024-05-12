@@ -5,7 +5,7 @@ import CartContext from '../../Context/CartContext';
 
 
 const Cart = () => {
-    const { cartItems , addToCart , removeFromCart ,id } = useContext(CartContext)
+    const { cartItems , addToCart , removeFromCart , } = useContext(CartContext)
     const totalPrice = cartItems.reduce((acc,cur) => acc + cur.price * cur.quantity , 0);
     
   return (

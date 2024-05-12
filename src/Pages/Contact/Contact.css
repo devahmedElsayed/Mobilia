@@ -35,14 +35,14 @@
     justify-content: center;
     width:auto;
     margin: auto;
-    gap: 5px;
+    gap: 3px;
     padding-top: 80px;
     width: 60%;
 }
 .inp_name input{
     border: 1px solid #9c9a9a;
     border-radius: 20px;
-    width: 600px;
+    width: 450px;
     height: 80px;
     padding: 10px;
     font-size: 18px;
